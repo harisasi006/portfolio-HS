@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- SEO Meta Tags -->
+  <title>Hariharasudhan S — Embedded Systems & FPGA Engineer Portfolio</title>
+  <meta name="description" content="Portfolio of Hariharasudhan S, an Electronics & Communication Engineering student, embedded systems developer, and co-inventor of two Indian patents. Explore FPGA smart systems and AI civic platforms.">
+  <meta name="keywords" content="Hariharasudhan S, Embedded Systems, FPGA, Artix-7, Cyclone V, Smart Wheelchair, Indian Patent, ECE, VSB College, VSB">
+  <meta name="author" content="Hariharasudhan S">
+  
+  <!-- Open Graph / Social Media -->
+  <meta property="og:title" content="Hariharasudhan S — Embedded Systems & FPGA Engineer">
+  <meta property="og:description" content="ECE Undergrad & Inventor of FPGA voice-controlled smart wheelchair & AI complaint management kiosks.">
+  <meta property="og:type" content="website">
+  
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="styles.css">
+  
+  <!-- Three.js Library for 3D Background -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+</head>
+<body>
+
+  <!-- Custom Cursor Elements -->
+  <div class="custom-cursor" id="custom-cursor"></div>
+  <div class="custom-cursor-follower" id="cursor-follower"></div>
+
+  <!-- Background Canvas -->
+  <canvas id="bg-canvas"></canvas>
+
+  <div class="app-container">
+    
+    <!-- Navigation Bar -->
+    <nav class="glass-panel">
+      <a href="#" class="nav-brand">H.S<span>/ECE</span></a>
+      <ul class="nav-links">
+        <li><a href="#about" class="nav-link-item">About</a></li>
+        <li><a href="#console" class="nav-link-item">Console</a></li>
+        <li><a href="#skills" class="nav-link-item">Skills</a></li>
+        <li><a href="#experience" class="nav-link-item">Experience</a></li>
+        <li><a href="#patents" class="nav-link-item">Patents</a></li>
+        <li><a href="#education" class="nav-link-item">Education</a></li>
+        <li><a href="#contact" class="nav-link-item">Contact</a></li>
+      </ul>
+      <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+      <div class="hero-content">
+        <div class="hero-text">
+          <h4>Engineering the physical-digital bridge</h4>
+          <h1>Hi, I'm <span>Hariharasudhan</span>.<br>I design systems at the edge of hardware &amp; code.</h1>
+          <p>Electronics &amp; Communication Engineering undergraduate and co-inventor of two filed Indian patents. Experienced in developing FPGA-driven assistive systems and AI-powered civic platform infrastructure.</p>
+          <div class="hero-buttons">
+            <a href="#patents" class="btn btn-primary">
+              View Inventions
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </a>
+            <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+          </div>
+        </div>
+        
+        <div class="hero-status-panel glass-panel">
+          <div class="status-header">
+            <span>SYSTEM LOG</span>
+            <span class="status-dot"></span>
+          </div>
+          <div class="status-item">
+            <span>DESIGNATION</span>
+            <span>HS-ECE-2027</span>
+          </div>
+          <div class="status-item">
+            <span>DOMAIN</span>
+            <span>Embedded Systems &amp; IoT</span>
+          </div>
+          <div class="status-item">
+            <span>LOCATION</span>
+            <span>Theni, Tamil Nadu, IN</span>
+          </div>
+          <div class="status-item">
+            <span>STATUS</span>
+            <span style="color: var(--accent-cyan);">Open to Internships</span>
+          </div>
+          <div class="status-item">
+            <span>OPERATING V</span>
+            <span>3.3V / 5V TTL Logic</span>
+          </div>
+        </div>
+      </div>
+
+      <a href="#about" class="scroll-indicator">
+        <span>EXPLORE SYSTEM</span>
+        <div class="scroll-mouse">
+          <div class="scroll-wheel"></div>
+        </div>
+      </a>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="reveal">
+      <div class="section-header">
+        <span class="section-num">01.</span>
+        <h2 class="section-title">About Me</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="profile-card glass-panel">
+        <div class="profile-intro">
+          <p>I am a highly motivated and innovative undergraduate in <strong>Electronics &amp; Communication Engineering</strong> with a deep passion for hardware-software integration. I love working at the intersection where physical sensors, logic chips, and software decision pipelines align.</p>
+          <p>As a published co-inventor of two Indian Patent applications, I've designed and validated complex systems ranging from <strong>FPGA voice-controlled assistive tech</strong> to <strong>Aadhaar-authenticated civic systems</strong>. I approach engineering with a research-first mindset, focusing on how emerging tech can solve critical physical challenges.</p>
+        </div>
+        <div class="profile-details">
+          <div class="profile-detail-item">
+            <h5>Core Focus</h5>
+            <p>Embedded Hardware Design, Verilog HDL, IoT Architecture</p>
+          </div>
+          <div class="profile-detail-item">
+            <h5>Key Strengths</h5>
+            <p>Rapid Prototyping, Systems Engineering, Technical Problem Solving</p>
+          </div>
+          <div class="profile-detail-item">
+            <h5>Soft Skills</h5>
+            <p>Team Leadership, Creative Visual Design, Active Collaboration</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Terminal Console Section -->
+    <section id="console" class="reveal">
+      <div class="section-header">
+        <span class="section-num">02.</span>
+        <h2 class="section-title">Interactive Console</h2>
+        <div class="section-line"></div>
+      </div>
+      <p style="margin-bottom: 2rem; max-width: 600px;">Directly query my profile records via this secure, retro-futuristic terminal interface. Try typing commands to explore my records.</p>
+      
+      <div class="terminal-console glass-panel">
+        <div class="terminal-header">
+          <div class="terminal-dots">
+            <span class="terminal-dot red"></span>
+            <span class="terminal-dot yellow"></span>
+            <span class="terminal-dot green"></span>
+          </div>
+          <div class="terminal-title">hariharasudhan_cli.sys</div>
+          <div style="width: 52px;"></div> <!-- placeholder to center title -->
+        </div>
+        <div class="terminal-body" id="terminal-body">
+          <div class="terminal-output" id="terminal-output">Welcome to Hariharasudhan's system core console.
+Type "help" to see available commands.
+
+visitor@hariharasudhan:~$ </div>
+          <div class="terminal-line">
+            <span class="terminal-prompt">visitor@hariharasudhan:~$</span>
+            <input type="text" class="terminal-input" id="terminal-input" autocomplete="off" autofocus>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Technical Skills Section -->
+    <section id="skills" class="reveal">
+      <div class="section-header">
+        <span class="section-num">03.</span>
+        <h2 class="section-title">Technical Expertise</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="skills-container">
+        
+        <div class="skill-card glass-panel">
+          <div class="skill-icon-wrap">
+            <!-- Hardware / Embedded SVG -->
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="2" ry="2"/><path d="M6 12h12M12 6v12"/></svg>
+          </div>
+          <h3>Embedded &amp; IoT</h3>
+          <p>Designing custom hardware controllers, sensor integrations, and edge communication paths.</p>
+          <div class="skill-tags">
+            <span class="skill-tag">FPGA Synthesis</span>
+            <span class="skill-tag">Microcontrollers</span>
+            <span class="skill-tag">IoT Hardware</span>
+            <span class="skill-tag">Verilog HDL</span>
+            <span class="skill-tag">Sensors &amp; Actuators</span>
+          </div>
+        </div>
+
+        <div class="skill-card glass-panel">
+          <div class="skill-icon-wrap">
+            <!-- Code SVG -->
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+          </div>
+          <h3>Software Development</h3>
+          <p>Writing highly optimized logic, backend scripting, and database integrations.</p>
+          <div class="skill-tags">
+            <span class="skill-tag">Java</span>
+            <span class="skill-tag">Python</span>
+            <span class="skill-tag">C/C++</span>
+            <span class="skill-tag">MySQL</span>
+            <span class="skill-tag">Shell Scripting</span>
+          </div>
+        </div>
+
+        <div class="skill-card glass-panel">
+          <div class="skill-icon-wrap">
+            <!-- Cloud SVG -->
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"/></svg>
+          </div>
+          <h3>Cloud &amp; Domains</h3>
+          <p>Cloud infrastructure fundamentals, distributed architectures, and web APIs.</p>
+          <div class="skill-tags">
+            <span class="skill-tag">Google Cloud Platform</span>
+            <span class="skill-tag">REST APIs</span>
+            <span class="skill-tag">Serverless Basics</span>
+            <span class="skill-tag">Data Routing</span>
+          </div>
+        </div>
+
+        <div class="skill-card glass-panel">
+          <div class="skill-icon-wrap">
+            <!-- Design SVG -->
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z"/><path d="M12 8V12L14 14"/></svg>
+          </div>
+          <h3>Visual &amp; System Design</h3>
+          <p>Creating functional mockups, user flows, and aesthetic media deliverables.</p>
+          <div class="skill-tags">
+            <span class="skill-tag">Canva</span>
+            <span class="skill-tag">Adobe Photoshop</span>
+            <span class="skill-tag">UI/UX Layouts</span>
+            <span class="skill-tag">System Schematics</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="reveal">
+      <div class="section-header">
+        <span class="section-num">04.</span>
+        <h2 class="section-title">Professional Experience</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="timeline">
+        
+        <div class="timeline-item">
+          <div class="timeline-dot-indicator"></div>
+          <div class="timeline-meta">JULY 2024 – AUG 2024</div>
+          <div class="timeline-content glass-panel">
+            <h3>Embedded Systems Intern</h3>
+            <div class="timeline-org">
+              Emglitz Technologies 
+              <span>Theni, Tamil Nadu</span>
+            </div>
+            <ul>
+              <li>Gained foundational knowledge and practical hands-on exposure in embedded systems development workflows.</li>
+              <li>Worked extensively with hardware-software integration concepts, microcontroller flashing, and digital signals.</li>
+              <li>Applied learning to real-world interface problems, deepening understanding of industrial sensor buses and ADC interfaces.</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Patents Section -->
+    <section id="patents" class="reveal">
+      <div class="section-header">
+        <span class="section-num">05.</span>
+        <h2 class="section-title">Innovation &amp; Patents</h2>
+        <div class="section-line"></div>
+      </div>
+      <p style="margin-bottom: 3rem; max-width: 650px;">Co-inventor on two Indian patents focused on assistive robotics and public utility access. Click "Simulate Schematic" to inspect the functional blocks and interactive signal simulations.</p>
+      
+      <div class="patents-grid">
+        
+        <!-- Patent 1 -->
+        <div class="patent-card glass-panel">
+          <div class="patent-glow-bg"></div>
+          <span class="patent-badge">Indian Patent Application</span>
+          <h3 class="patent-title">FPGA-Based Voice Controlled Smart Wheelchair System</h3>
+          <div class="patent-number">App No: 202641043994 · Filed April 2026 · Published April 2026</div>
+          <p class="patent-desc">An FPGA-based smart wheelchair system enabling hands-free mobility for disabled individuals. Incorporates real-time MFCC features extraction, PWM-based velocity motor control, and ultrasonic obstacle avoidances on a single chip.</p>
+          <div class="patent-action-row">
+            <span class="claims-count">
+              <span class="pulse-dot"></span>
+              8 Claims Filed
+            </span>
+            <button class="patent-btn" data-patent="wheelchair">
+              Simulate Schematic
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </button>
+          </div>
+        </div>
+
+        <!-- Patent 2 -->
+        <div class="patent-card glass-panel">
+          <div class="patent-glow-bg"></div>
+          <span class="patent-badge">Indian Patent Application</span>
+          <h3 class="patent-title">AI-Powered Public Complaint Management Platform</h3>
+          <div class="patent-number">App No: 202641032442 · Filed March 2026 · Published March 2026</div>
+          <p class="patent-desc">A smart civic kiosk platform featuring Aadhaar biometric verification, multi-language speech recognition, NLP departmental classification, automatic civic ticket routing, and escalation.</p>
+          <div class="patent-action-row">
+            <span class="claims-count">
+              <span class="pulse-dot"></span>
+              5 Claims Filed
+            </span>
+            <button class="patent-btn" data-patent="kiosk">
+              Simulate Schematic
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+            </button>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="reveal">
+      <div class="section-header">
+        <span class="section-num">06.</span>
+        <h2 class="section-title">Education &amp; Credentials</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="edu-grid">
+        <div class="edu-cards">
+          
+          <div class="edu-card glass-panel">
+            <div class="edu-year">2023 – 2027 (EXPECTED)</div>
+            <h3>B.E. Electronics &amp; Communication Engineering</h3>
+            <p class="edu-inst">VSB College of Engineering and Technical Campus, Coimbatore, IN</p>
+          </div>
+
+          <div class="edu-card glass-panel">
+            <div class="edu-year">2022 – 2023</div>
+            <h3>Higher Secondary Certificate (HSC)</h3>
+            <p class="edu-inst">St Aloysius Higher Secondary School, Theni, Tamil Nadu</p>
+          </div>
+
+        </div>
+
+        <div class="edu-meta-list">
+          <div class="edu-meta-block">
+            <h4>Certifications</h4>
+            <div class="badge-row">
+              <span class="badge-item">Google Cloud Fundamentals (Coursera)</span>
+            </div>
+          </div>
+          
+          <div class="edu-meta-block">
+            <h4>Leadership &amp; Activities</h4>
+            <p style="color: var(--text-secondary); font-size: 0.95rem;">Design Team Lead for the college cultural symposium, managing 10+ student volunteers. Actively competed in national-level Hackathons, Ideathons, and Design Challenge 2024.</p>
+          </div>
+
+          <div class="edu-meta-block">
+            <h4>Languages</h4>
+            <div class="badge-row">
+              <span class="badge-item">English (Professional)</span>
+              <span class="badge-item">Tamil (Native)</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="reveal">
+      <div class="section-header">
+        <span class="section-num">07.</span>
+        <h2 class="section-title">Closing the Loop</h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="contact-container">
+        <div class="contact-card glass-panel">
+          <h2>Let's build something.</h2>
+          <p>I am looking for internship opportunities in embedded systems, FPGA firmware validation, or technical systems programming. Drop an email, and let's start a conversation.</p>
+          
+          <a href="mailto:harisasi006@gmail.com" class="contact-email-btn">
+            <!-- Email SVG -->
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            harisasi006@gmail.com
+          </a>
+
+          <div class="social-links">
+            <a href="https://github.com/harisasi006" target="_blank" rel="noopener noreferrer">GITHUB ↗</a>
+            <a href="https://leetcode.com/u/HariSasiiii/" target="_blank" rel="noopener noreferrer">LEETCODE ↗</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <span>&copy; 2026 Hariharasudhan S. Built with passion &amp; glassmorphic design.</span>
+      <span>Located in Tamil Nadu, India</span>
+    </footer>
+
+  </div> <!-- End App Container -->
+
+  <!-- Patent Simulator Modals (Shared Overlay) -->
+  <div class="modal-overlay" id="patent-modal">
+    <div class="modal-container glass-panel">
+      <button class="modal-close" aria-label="Close modal">&times;</button>
+      
+      <!-- Inside contents will be dynamically injected by JS based on selected patent -->
+      <div id="modal-content-target"></div>
+    </div>
+  </div>
+
+  <!-- Main JavaScript -->
+  <script src="app.js" defer></script>
+</body>
+</html>
