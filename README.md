@@ -23,6 +23,9 @@ Here are my major projects, complete with links to their live websites and sourc
 An interactive Smart Civic Kiosk designed for government and panchayat offices to enable accessible, spam-free complaint lodging.
 *   👉 **Live Web App**: [complaint-kiosk](https://harisasi006.github.io/complaint-kiosk/)
 *   📂 **GitHub Code**: [complaint-kiosk Repo](https://github.com/harisasi006/complaint-kiosk)
+*   📲 **Scan to open on mobile**:
+    
+    ![CivicConnect QR Code](complaint_kiosk_qr.png)
 *   **Key Features**:
     *   Multilingual voice guidance & dictation using the Web Speech API (English, Tamil, Hindi, Telugu).
     *   Aadhaar biometric scan simulator (with tactile canvas feedback and custom oscillator bass hums).
@@ -33,6 +36,9 @@ An interactive Smart Civic Kiosk designed for government and panchayat offices t
 A high-fidelity Progressive Web App (PWA) that operates 100% offline, helping users form positive life habits.
 *   👉 **Live Web App**: [habit-tracker](https://harisasi006.github.io/habit-tracker/)
 *   📂 **GitHub Code**: [habit-tracker Repo](https://github.com/harisasi006/habit-tracker)
+*   📲 **Scan to open on mobile**:
+    
+    ![Strive QR Code](habit_tracker_qr.png)
 *   **Key Features**:
     *   Responsive glassmorphic UI with multi-theme switcher (Slate, Cyberpunk, Emerald).
     *   Offline Web Audio Synthesizer playing chord sound effects.
