@@ -2,6 +2,8 @@
 
 Welcome to my developer portfolio! I am a passionate engineering student focused on building secure, accessible, and high-performance software and hardware solutions that solve real-world problems.
 
+👉 **Live Portfolio Website**: [https://harisasi006.github.io/portfolio-HS/](https://harisasi006.github.io/portfolio-HS/)
+
 ---
 
 ## 🏛️ Patent Publication
