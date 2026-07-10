@@ -311,6 +311,12 @@ DOMAINS: Embedded Systems, Cloud Computing, Visual Design`,
 2. AI-Powered Public Complaint Management Platform (App No: 202641032442)
    - Aadhaar-authenticated ticket routing kiosk with multilingual voice guidance.`,
   
+  projects: `LIVE APPLICATIONS:
+1. CivicConnect (AI Kiosk): https://harisasi006.github.io/complaint-kiosk/
+   - Aadhaar biometrics, multilingual speech Synthesis, AI routing, escalation.
+2. Strive (Habit Tracker PWA): https://harisasi006.github.io/habit-tracker/
+   - Glassmorphic offline PWA with Sound synth, Canva confetti, Weekly Goals, sync.`,
+  
   education: `ACADEMICS:
 - B.E. Electronics & Communication Engineering (2023 - 2027)
   VSB College of Engineering and Technical Campus
@@ -326,6 +332,7 @@ LeetCode: https://leetcode.com/u/HariSasiiii/`,
   help: `SUPPORTED CHANNELS:
 - about       Print bio and overview profile
 - skills      List technical skillsets
+- projects    Display list of live software applications
 - patents     Display registered patent innovations
 - experience  Display professional timeline
 - education   Display degrees and certifications
